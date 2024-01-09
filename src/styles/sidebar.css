@@ -1,0 +1,119 @@
+/* Sidebar css */
+.sidebar {
+  box-sizing: border-box;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 224px;
+  height: 100vh;
+  z-index: 999;
+  overflow: hidden;
+  overflow-y: auto;
+  background: #1e2640;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+}
+/* Sidebar css */
+
+/* Store Details css */
+.store_details {
+  display: flex;
+  align-items: center;
+  margin-bottom: 32px;
+  padding: 8px;
+}
+.store_logo {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  background-color: #fff;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-right: 12px;
+}
+.store_info {
+  display: flex;
+  flex-direction: column;
+}
+.store_name {
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+  color: #fff;
+}
+.store_link {
+  font-family: Inter;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  text-decoration-line: underline;
+  color: #d2d4d9;
+}
+.store_arrow {
+  margin-left: auto;
+}
+/* Store Details css */
+
+/* Sidebar Menu css */
+.sidebar_menu {
+  margin-bottom: 32px;
+}
+.sidebar_menu li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 16px;
+  color: #d2d4d9;
+  cursor: pointer;
+}
+.sidebar_menu li.active {
+  color: #fff;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.1);
+}
+/* Sidebar Menu css */
+
+.separator {
+  flex: 1;
+}
+
+/* Sidebar Credits css */
+.credits {
+  padding: 8px 12px;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.1);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.credits_icon {
+  width: fit-content;
+  border-radius: 4px;
+  padding: 6px;
+  background: rgba(255, 255, 255, 0.1);
+}
+.credits_texts {
+  display: flex;
+  flex-direction: column;
+}
+.credits_title {
+  font-family: Inter;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  color: #d2d4d9;
+}
+.credits_amount {
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  color: #fff;
+}
+/* Sidebar Credits css */
