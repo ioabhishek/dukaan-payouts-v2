@@ -6,7 +6,10 @@ const TransactionTable = () => {
       <thead>
         <tr>
           <th>Order ID</th>
-          <th>Order date</th>
+          <th>
+            Order date
+            <Icons.triangle />
+          </th>
           <th>Order amount</th>
           <th>
             Transaction fees

@@ -6,6 +6,7 @@
   font-weight: 500;
   line-height: 28px;
   margin-bottom: 20px;
+  color: #1a181e;
 }
 .transaction_wrap {
   padding: 12px 12px 24px;
@@ -120,6 +121,10 @@ table tr th:nth-child(1) {
 }
 table tr th:nth-child(2) {
   text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 4px;
 }
 table tr th:nth-child(3) {
   text-align: right;
