@@ -46,11 +46,16 @@
   width: 14px;
   height: 14px;
 }
-.search_input {
+.trans_actions .search_input {
   width: 100%;
   background-color: transparent;
   padding-left: 24px;
   outline: none;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
 }
 /* Transaction Search css */
 
