@@ -69,6 +69,11 @@
   padding: 10px 16px;
   color: #d2d4d9;
   cursor: pointer;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
 }
 .sidebar_menu li.active {
   color: #fff;
